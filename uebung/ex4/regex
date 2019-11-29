@@ -1,0 +1,4 @@
+cat proteins.fasta | grep "thionin" -A1 | grep "C\{2\}[A-Z]\{5\}R[A-Z]\{2\}[FY][A-Z]\{2\}C"
+
+cat proteins.fasta | egrep -o -i 'C\w{2,4}C\w{3}[LIVMFYWC]\w{8}H\w{3,5}H' | wc -l
+cat proteins.fasta | egrep -io  'zinc finger' | wc -l

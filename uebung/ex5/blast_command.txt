@@ -1,0 +1,28 @@
+ 1910  makeblastdb -in medicagoPep.fasta -dtype prot
+ 1911  makeblastdb -in medicagoPep.fasta -dbtype prot
+ 1912  makeblastdb -in medicagoDna.fasta -dbtype nucl
+ 1917  blast -db medicagoDna.fasta 
+ 1918  man blast
+ 1919  blastp
+ 1920  blastp --help
+ 1921  man blastp 
+ 1922  blastp -db medicagoDna.fasta 
+ 1923  blastp -db medicagoDna.fasta -query nucleitidesequence  
+ 1924  blastp -db medicagoDna.fasta -query nucleitidesequence -out output 
+ 1925  blastp -db medicagoDna.fasta -query proteinsequence -out output 
+ 1926  blastp -db medicagoDna.fasta -query proteinsequence -out output.txt 
+ 1927  blastp -db medicagoPep.fasta.psq -query proteinsequence -out output.txt 
+ 1928  blastp -db medicagoPep.fasta.nin -query proteinsequence -out output.txt 
+ 1929  blastp -db medicagoPep.fasta.pin -query proteinsequence -out output.txt 
+ 1930  blastp -db medicagoPep.fasta.psq -query proteinsequence -out output.txt 
+ 1932  blastp -db medicagoPep.fasta -query proteinsequence -out output.txt 
+ 1935  blastp -db medicagoPep.fasta -query proteinsequence -out output.txt 
+ 1937  blastp -db medicagoDna.fasta -query nucleitidesequence -out outpu_nucletid.txt
+ 1938  blastp -db medicagoDna.fasta -query nucleitidesequence
+ 1939  blastp -db medicago
+ 1940  blastn -db medicagoDna.fasta -query nucleitidesequence -out output_nucl.txt
+ 1942  blastp -db medicagoPep.fasta -query proteinsequence -out output.txt 
+ 1944  blastn -db medicagoDna.fasta -query nucleitidesequence -out output_nucl.txt
+ 1946  blastn -db medicagoDna.fasta -query nucleitidesequence -out output_nucl.txt
+ 2000  history | grep "blast"
+ 2001  history | grep "blast" -> blast_command.txt

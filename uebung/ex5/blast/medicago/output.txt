@@ -1,0 +1,177 @@
+BLASTP 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: medicagoPep.fasta
+           38,834 sequences; 10,270,145 total letters
+
+
+
+Query= NP_000509.1 hemoglobin subunit beta [Homo sapiens]
+
+Length=147
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  IMGA|CT025840_43.4                                                  37.0    0.001
+  IMGA|CU457809_16.3                                                  30.0    0.42 
+  IMGA|CU179637_14.3                                                  30.0    0.42 
+  IMGA|CT030180_36.5                                                  30.0    0.47 
+  IMGA|AC158372_46.4                                                  27.7    2.7  
+  IMGA|AC148396_28.4                                                  26.2    7.9  
+  IMGA|AC165429_23.4                                                  26.2    8.2  
+  IMGA|CU424495_13.3                                                  26.2    8.8  
+
+
+> IMGA|CT025840_43.4
+Length=148
+
+ Score = 37.0 bits (84),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 28/101 (28%), Positives = 48/101 (48%), Gaps = 6/101 (6%)
+
+Query  46   FGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTF----ATLSELHCDKLHVDP  101
+            F  L     V  +PK++AH +KV G   D    L  +KG      ATL  +H  K  VDP
+Sbjct  44   FSFLKDSAGVQDSPKLQAHAEKVFGMVRDSAVQL-RVKGEVVLGDATLGAIHIQKGVVDP  102
+
+Query  102  ENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANAL  142
+             +F ++   L+  +      +++  +  A++    G+A+A+
+Sbjct  103  -HFVVVKEALLKTIKEVSEDKWSEELNTAWEIAYDGLASAI  142
+
+
+> IMGA|CU457809_16.3
+Length=430
+
+ Score = 30.0 bits (66),  Expect = 0.42, Method: Compositional matrix adjust.
+ Identities = 38/152 (25%), Positives = 61/152 (40%), Gaps = 18/152 (12%)
+
+Query  7    EEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVK----  62
+            EE+  +T+  G+V     GG A    L  +P       S GD+   + ++  P VK    
+Sbjct  176  EERVRITSSGGEVGRLNTGGGAEVGPLRCWPGGLCLSRSIGDMDVGEFIVPVPYVKQVKL  235
+
+Query  63   --AHGKKVLGAFSDGLAH-------LDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVC  113
+              A G+ V+   SDG+         LD+ +G  A  +  H  K  +  +  R   +   C
+Sbjct  236  SNAGGRLVIS--SDGVWDALTAEMVLDSCRGMSAEAAAPHIVKESLQAKGLR---DDTTC  290
+
+Query  114  VLAHHFGKEFTPPVQAAYQKVVAGVANALAHK  145
+            V+     +E  P      +K V G+  A+  K
+Sbjct  291  VVVDILPQEKPPTSVRTQKKPVKGMLKAIFRK  322
+
+
+> IMGA|CU179637_14.3
+Length=430
+
+ Score = 30.0 bits (66),  Expect = 0.42, Method: Compositional matrix adjust.
+ Identities = 38/152 (25%), Positives = 61/152 (40%), Gaps = 18/152 (12%)
+
+Query  7    EEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVK----  62
+            EE+  +T+  G+V     GG A    L  +P       S GD+   + ++  P VK    
+Sbjct  176  EERVRITSSGGEVGRLNTGGGAEVGPLRCWPGGLCLSRSIGDMDVGEFIVPVPYVKQVKL  235
+
+Query  63   --AHGKKVLGAFSDGLAH-------LDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVC  113
+              A G+ V+   SDG+         LD+ +G  A  +  H  K  +  +  R   +   C
+Sbjct  236  SNAGGRLVIS--SDGVWDALTAEMVLDSCRGMSAEAAAPHIVKESLQAKGLR---DDTTC  290
+
+Query  114  VLAHHFGKEFTPPVQAAYQKVVAGVANALAHK  145
+            V+     +E  P      +K V G+  A+  K
+Sbjct  291  VVVDILPQEKPPTSVRTQKKPVKGMLKAIFRK  322
+
+
+> IMGA|CT030180_36.5
+Length=1119
+
+ Score = 30.0 bits (66),  Expect = 0.47, Method: Composition-based stats.
+ Identities = 21/74 (28%), Positives = 29/74 (39%), Gaps = 12/74 (16%)
+
+Query  44   ESFGD------------LSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSE  91
+            E FGD             ST    + +P       +++G   D L HL  +K      SE
+Sbjct  749  EKFGDQKWDDLDHVIKKFSTSTKQLLSPSFDKLNLRLIGTLEDILVHLQKVKKWDILSSE  808
+
+Query  92   LHCDKLHVDPENFR  105
+            +H  K  +DP N R
+Sbjct  809  IHSQKKLMDPLNIR  822
+
+
+> IMGA|AC158372_46.4
+Length=466
+
+ Score = 27.7 bits (60),  Expect = 2.7, Method: Composition-based stats.
+ Identities = 16/47 (34%), Positives = 22/47 (47%), Gaps = 1/47 (2%)
+
+Query  34   VVYPWTQ-RFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHL  79
+            V Y + Q RF + FGDL+  DA +         KK+L  F    A +
+Sbjct  333  VCYTFQQGRFSKKFGDLTRVDARLDISSASGLAKKILNGFKSSSADI  379
+
+
+> IMGA|AC148396_28.4
+Length=1269
+
+ Score = 26.2 bits (56),  Expect = 7.9, Method: Composition-based stats.
+ Identities = 13/42 (31%), Positives = 24/42 (57%), Gaps = 0/42 (0%)
+
+Query  21   VDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVK  62
+            V+++  EAL   ++  P   ++FES  ++  PDA+    KV+
+Sbjct  275  VEKLPVEALANHVIEAPGLDKWFESAAEVGNPDALFLALKVR  316
+
+
+> IMGA|AC165429_23.4
+Length=304
+
+ Score = 26.2 bits (56),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 21/73 (29%), Positives = 29/73 (40%), Gaps = 1/73 (1%)
+
+Query  30   GRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTF-AT  88
+             R   V  W ++F  S G +     + GN  +  H K V    S      DN K  F A 
+Sbjct  29   NRFPTVPSWEKKFCNSVGSVPWRKVIEGNKYMCLHPKVVNWNDSAVKEAFDNAKNRFWAE  88
+
+Query  89   LSELHCDKLHVDP  101
+            ++ L C+    DP
+Sbjct  89   INGLPCNIPLPDP  101
+
+
+> IMGA|CU424495_13.3
+Length=415
+
+ Score = 26.2 bits (56),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 9/29 (31%), Positives = 20/29 (69%), Gaps = 0/29 (0%)
+
+Query  95   DKLHVDPENFRLLGNVLVCVLAHHFGKEF  123
+            ++L++  +N  +LGN L C++++ F + F
+Sbjct  282  NELNILAKNCLMLGNRLSCIMSNDFNRTF  310
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.137    0.422    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 404312427
+
+
+  Database: medicagoPep.fasta
+    Posted date:  Nov 15, 2019  10:04 AM
+  Number of letters in database: 10,270,145
+  Number of sequences in database:  38,834
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

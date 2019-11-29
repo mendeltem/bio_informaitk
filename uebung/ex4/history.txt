@@ -1,0 +1,73 @@
+ 1046  ls
+ 1055  ls
+ 1057  ls
+ 1082  git add models.py 
+ 1091  ls
+ 1118  pip install git+https://github.com/philferriere/cocoapi.git#egg=pycocotools^&subdirectory=PythonAPI
+ 1125  conda instal pycocotools
+ 1126  conda install pycocotools
+ 1127  pip install git+https://github.com/waleedka/cocoapi.git#egg=pycocotools&subdirectory=PythonAPI
+ 1129  ls
+ 1131  ls
+ 1133  ls
+ 1141  ls
+ 1145  ls
+ 1147  ls
+ 1149  ls
+ 1151  ls
+ 1153  ls
+ 1155  ls
+ 1168  ls
+ 1171  ls
+ 1173  ls
+ 1175  ls
+ 1246  ls
+ 1248  ls
+ 1266  lsb_release -a4
+ 1267  lsb_release -a
+ 1297  ls
+ 1299  ls
+ 1302  ls
+ 1304  ls
+ 1312  ls
+ 1314  ls
+ 1334  ls
+ 1344  ls
+ 1353  ls -ldh dev/
+ 1354  ls -ldh dev/vboxusb/
+ 1359  ls
+ 1361  ls
+ 1368  ls
+ 1386  ls
+ 1424  ls
+ 1445  ls
+ 1457  ls
+ 1493  ls
+ 1548  git commit -m "bayesian optimization kfold with multiprocessing eingebaut, funktioniert noch nicht da Dataloader keine Liste als Parameter annimmt, muss noch veraendert verden"
+ 1685  ls /dev/sdc1
+ 1717  pip install easymodels
+ 1718  ls
+ 1720  easymodels
+ 1722  pip install easymodels
+ 1724  pip install easymodels
+ 1725  sudo pip install easymodels
+ 1726  sudo conda install easymodels
+ 1727  conda install easymodels
+ 1745  sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
+ 1758  ls
+ 1760  ls
+ 1762  pip3 install imgaug install "git+https://github.com/philferriere/cocoapi.git#egg=pycocotools&subdirectory=PythonAPI"
+ 1777  https://github.com/tensorflow/models.git
+ 1778  git clone https://github.com/tensorflow/models.git
+ 1936  ls
+ 1938  ls
+ 1942  ls
+ 1964  lscpu
+ 1992  ls e
+ 1993  ls -e
+ 1994  ls -a
+ 1995  ls -l
+ 1996  ls --help
+ 1998  history | grep "ls"
+ 1999  history | grep "ls" | cat
+ 2000  history | grep "ls"  -> history.txt
