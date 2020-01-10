@@ -1,0 +1,116 @@
+
+Protein parsimony algorithm, version 3.697
+
+ 5 species, 160  sites
+
+
+Name                                     Sequences
+----                                     ---------
+
+human_b      --------MV HLTPEEKSAV TALWGKVN-- VDEVGGEALG RLLVVYPWTQ RFFESFGDLS
+horse_b      .......... Q.SG...A.. L...D..... EE........ .......... ...D......
+human_a      ........-M V.S.AD.TN. K.A....GAH AG.Y.A...E .MFLSF.T.K TY.PH.-...
+horse_a      ........-M V.SAAD.TN. K.A.S..GGH AG.Y.A...E .MFLGF.T.K TY.PH.-...
+lamprey_g    MPIVDTGSVA P.SAA..TKI RSA.AP.YST YETS.VDI.V KFFTST.AA. E..PK.KG.T
+
+human_b      TPDAVMGNPK VKAHGKKVLG AFSDGLAHLD N---LKGTFA TLSELHCDKL HVDPENFRLL
+horse_b      N.G....... .........H S.GE.VH... .......... A......... ..........
+human_a      -----H.SAQ ..G.....AD .LTNAV..V. D...MPNALS A..D..AH.. R...V..K..
+horse_a      -----H.SAQ ........GD .LTLAVG... D....P.ALS N..D..AH.. R...V..K..
+lamprey_g    .A.QLKKSAD .RW.AERIIN .VN.AV.SM. DTEKMSMKLR D..GK.AKSF Q...QY.KV.
+
+human_b      GNVLVCVLAH HFGKEFTPPV QAAYQKVVAG VANALAHKYH 
+horse_b      .....V...R ....D...EL ..S....... .......... 
+human_a      SHC.LVT..A .LPA....A. H.SLD.FL.S .STV.TS..R 
+horse_a      SHC.LST..V .LPND...A. H.SLD.FLSS .STV.TS..R 
+lamprey_g    AA.IADTV.A G--------- D.GFE.LMSM ICIL.RSA.- 
+
+
+
+
+One most parsimonious tree found:
+
+
+
+
+  +-----------lamprey_g 
+  !  
+  4        +--horse_a   
+  !  +-----3  
+  !  !     +--human_a   
+  +--2  
+     !     +--horse_b   
+     +-----1  
+           +--human_b   
+
+  remember: (although rooted by outgroup) this is an unrooted tree!
+
+
+requires a total of    333.000
+
+steps in each position:
+         0   1   2   3   4   5   6   7   8   9
+     *-----------------------------------------
+    0!       3   3   3   3   3   3   3   3   4
+   10!   2   4   0   1   3   1   1   0   2   3
+   20!   1   3   1   2   0   3   2   0   3   5
+   30!   5   4   2   2   3   0   2   1   2   0
+   40!   2   1   2   1   3   3   3   0   3   1
+   50!   1   3   1   0   3   3   0   5   1   0
+   60!   1   4   4   4   5   4   3   2   1   1
+   70!   3   0   1   3   0   1   1   1   1   4
+   80!   3   1   2   3   4   1   1   3   2   2
+   90!   0   1   3   3   3   2   3   4   2   1
+  100!   3   4   0   0   2   2   0   2   3   2
+  110!   1   2   0   0   0   2   1   0   1   1
+  120!   0   2   3   2   1   2   5   2   1   0
+  130!   4   2   4   5   6   5   3   3   3   5
+  140!   4   2   0   3   2   2   0   2   2   2
+  150!   3   1   2   2   2   0   2   2   2   0
+  160!   4                                    
+
+From    To     Any Steps?    State at upper node
+                             ( . means same as in the node below it on tree)
+
+
+root     4                ?????????? ?LSAAEKT?? R?AW??V??? ?E??G???L? 
+  4   lamprey_g   maybe   MPIVDTGSVA PLSAAEKTKI RSAWAPVYST YETSGVDILV 
+  4      2         yes    ?????????V ?LSAAEKT?V RAAWGKV??? ?EE?G?EAL? 
+  2      3         yes    ?????????M VLSAADKTNV KAAWGKVG?H AGEYGAEALE 
+  3   horse_a      yes    ---------M VLSAADKTNV KAAWSKVGGH AGEYGAEALE 
+  3   human_a      yes    ---------M VLSPADKTNV KAAWGKVGAH AGEYGAEALE 
+  2      1         yes    ????????MV ?LSAEEK?AV RALWGKVN?? ?EEVGGEALG 
+  1   horse_b      yes    --------MV QLSGEEKAAV LALWDKVN-- EEEVGGEALG 
+  1   human_b      yes    --------MV HLTPEEKSAV TALWGKVN-- VDEVGGEALG 
+
+root     4                ??F???P??Q ?FFP?F??L? T?D????SA? V??H?????B 
+  4   lamprey_g   maybe   KFFTSTPAAQ EFFPKFKGLT TADQLKKSAD VRWHAERIIN 
+  4      2         yes    RLF???P?TQ ?FFP?F?DLS T?D???GSA? VK?HGKKV?D 
+  2      3         yes    RMFL?FPTTK TYFPHF?DLS ?????HGSAQ VK?HGKKV?D 
+  3   horse_a      yes    RMFLGFPTTK TYFPHF-DLS -----HGSAQ VKAHGKKVGD 
+  3   human_a      yes    RMFLSFPTTK TYFPHF-DLS -----HGSAQ VKGHGKKVAD 
+  2      1         yes    RLLVVYPWTQ RFF?SFGDLS TPDAVMGNPK VKAHGKKVLD 
+  1   horse_b      yes    RLLVVYPWTQ RFFDSFGDLS NPGAVMGNPK VKAHGKKVLH 
+  1   human_b      yes    RLLVVYPWTQ RFFESFGDLS TPDAVMGNPK VKAHGKKVLG 
+
+root     4                A??DAVA??D D???????L? ?LS??HA??? ?VDP??FK?L 
+  4   lamprey_g   maybe   AVNDAVASMD DTEKMSMKLR DLSGKHAKSF QVDPQYFKVL 
+  4      2         yes    A??DAVAHLD D?????GTL? ?LS?LHA?KL ?VDPENFKLL 
+  2      3         yes    ALT?AVAHLD D????PGALS ?LSDLHAHKL RVDPVNFKLL 
+  3   horse_a      yes    ALTLAVGHLD D---LPGALS NLSDLHAHKL RVDPVNFKLL 
+  3   human_a      yes    ALTNAVAHVD D---MPNALS ALSDLHAHKL RVDPVNFKLL 
+  2      1         yes    AFSDGVAHLD N???LKGTFA ALSELHCDKL HVDPENFRLL 
+  1   horse_b      yes    SFGEGVHHLD N---LKGTFA ALSELHCDKL HVDPENFRLL 
+  1   human_b      yes    AFSDGLAHLD N---LKGTFA TLSELHCDKL HVDPENFRLL 
+
+root     4                ??V???T?AA ?????????? ?A?FEK???? ????L?S?Y? 
+  4   lamprey_g   maybe   AAVIADTVAA G--------- DAGFEKLMSM ICILLRSAY- 
+  4      2         yes    ??VLV?TLAA H????FTPAV HA?FEK???? VS?VLTSKY? 
+  2      3         yes    SHCLL?TLAA HLP??FTPAV HASLDKFL?S VSTVLTSKYR 
+  3   horse_a      yes    SHCLLSTLAV HLPNDFTPAV HASLDKFLSS VSTVLTSKYR 
+  3   human_a      yes    SHCLLVTLAA HLPAEFTPAV HASLDKFLAS VSTVLTSKYR 
+  2      1         yes    GNVLV?VLA? HFGK?FTPAV QA?YQKVVAG VANALAHKYH 
+  1   horse_b      yes    GNVLVVVLAR HFGKDFTPEL QASYQKVVAG VANALAHKYH 
+  1   human_b      yes    GNVLVCVLAH HFGKEFTPPV QAAYQKVVAG VANALAHKYH 
+
+
