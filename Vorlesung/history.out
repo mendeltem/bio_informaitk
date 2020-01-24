@@ -1,0 +1,1000 @@
+   32  cd ..
+   33  ls -a
+   34  cd ..
+   35  ls -a
+   36  curl -O https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh
+   37  bash Anaconda3-2019.03-Linux-x86_64.sh 
+   38  sha256sum Anaconda3-2019.03-Linux-x86_64.sh
+   39  bash Anaconda3-2019.03-Linux-x86_64.sh
+   40  curl -O https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh
+   41  sha256sum Anaconda3-2019.03-Linux-x86_64.sh
+   42  bash Anaconda3-2019.03-Linux-x86_64.sh
+   43  ls
+   44  ls -a
+   45  source .bashrc 
+   46  conda
+   47  conda install -c anaconda tensorflow-gpu
+   48  conda create --name tf
+   49  conda activate tf
+   50  kill -9 9194
+   51  nvidia-detector 
+   52  hwinfo --gfxcard --short
+   53  sudo apt install hwinfo
+   54  sudo lshw -C display
+   55  update manager
+   56  apt search nvidia-driver
+   57  apt-cache search nvidia-driver
+   58  sudo apt install nvidia-driver-435
+   59  sudo apt install libsdl2-dev
+   60  sudo add-apt-repository ppa:haraldhv/shotcut
+   61  sudo apt install shotcut
+   62  sudo apt-get install snapd
+   63  sudo snap install shotcut --classic
+   64  hwinfo --gfxcard --short
+   65  sudo lshw -C display
+   66  conda activate tf
+   67  conda install tensorflow-gpu
+   68  top
+   69  conda create --name mi pandas
+   70  jupyter notebook
+   71  python
+   72  sudo apt install python3
+   73  man watch
+   74  nano seq1
+   75  cd Jalview/
+   76  pwd
+   77  nano jalview.sh
+   78  sudo ln -s jalview.sh
+   79  sudo ln -s jalview.sh /usr/local/bin/jalview
+   80  jalview
+   81  conda activate bioinf
+   82  sudo ln -s jalview.sh /usr/local/bin/jalview
+   83  jalview
+   84  nano jalview.sh 
+   85  jalview
+   86  sudo rm /usr/local/bin/jalview 
+   87  sudo ln -s jalview.sh /usr/bin/jalview
+   88  jalview
+   89  nano jalview.sh 
+   90  jalview
+   91  nano jalview.sh 
+   92  ls
+   93  chmod ugo+x jalview.sh
+   94  sudo rm /usr/bin/jalview 
+   95  sudo ln -s jalview.sh /usr/local/bin/jalview
+   96  ls
+   97  nano jalview.sh 
+   98  jalview
+   99  ls
+  100  ./jalview.sh 
+  101  sudo ln -s /home/panda/Jalview/jalview.sh /usr/local/bin/jalview
+  102  sudo rm /usr/local/bin/jalview 
+  103  sudo ln -s /home/panda/Jalview/jalview.sh /usr/local/bin/jalview
+  104  jalview 
+  105  conda install -c bioconda/label/cf201901 jalview
+  106  conda install jalview
+  107  jdk
+  108  java
+  109  java --version
+  110  apt-get update && apt-get upgrade
+  111  sudo apt-get update && apt-get upgrade
+  112  apt-get install default-jdk
+  113  sduo apt-get install default-jdk
+  114  sudo apt-get install default-jdk
+  115  java --version
+  116  pip install java
+  117  conda install java
+  118  java --version
+  119  conda deactivate
+  120  java
+  121  jav --version
+  122  java --version
+  123  jalview 
+  124  Java version: 11.0.5-ea
+  125  amd64 Linux 5.3.0-24-generic
+  126  Exception in thread "main" java.lang.NoClassDefFoundError: org/apache/log4j/Layout
+  127  at jalview.bin.Jalview.doMain(Jalview.java:220)
+  128  at jalview.bin.Jalview.main(Jalview.java:190)
+  129  Caused by: java.lang.ClassNotFoundException: org.apache.log4j.Layout
+  130  at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+  131  at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+  132  at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+  133  conda activate bioinf
+  134  sudo apt-get update -y
+  135  sudo apt-get install -y jalview
+  136  java
+  137  sudo apt install default-jre  
+  138  sudo apt-get update -y
+  139  java
+  140  sudo apt-get install -y jalview
+  141  conda install -c anaconda openjdk 
+  142  sh ./install.bin
+  143  install
+  144  install -help
+  145  install --help
+  146  conda create --name bioinf
+  147  conda activate bioninf
+  148  conda info --envs
+  149  conda activate bioinf
+  150  conda install -c bioconda blast
+  151  pwd
+  152  conda install -c bioconda jalview
+  153  pip install jalview
+  154  sudo apt install python-pip
+  155  pip install jalview
+  156  conda create --name jal jalview
+  157  conda create --name jal 
+  158  conda activate jal
+  159  conda install -c bioconda/label/cf201901 jalview
+  160  pip install jalview
+  161  conda config --add channels defaults
+  162  conda config --add channels bioconda
+  163  conda config --add channels conda-forge
+  164  conda install jalview
+  165  jalview 
+  166  conda
+  167  conda install -c bioconda/label/cf201901 blast
+  168  conda install -c bioconda/label/cf201901 clustalo
+  169  blast
+  170  clustalw
+  171  sudo apt install clustalw
+  172  clustalw
+  173  makeblastdb
+  174  jalview
+  175  conda activate bioinf
+  176  conda install -c bioconda/label/cf201901 jalview
+  177  java -version
+  178  dpkg --list | grep -i jdk
+  179  java -version
+  180  jalview 
+  181  conda install -c bioconda/label/cf201901 jalview
+  182  java -jar jalview.jar 
+  183  conda activate bioinf
+  184  java -jar jalview.jar 
+  185  jalview
+  186  cd Downloads/
+  187  sh ./install.bin
+  188  conda activate bioinf
+  189  sh ./install.bin
+  190  jalview 
+  191  sudo jalview 
+  192  curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+  193  sudo apt install nodejs
+  194  node --version
+  195  npm --version
+  196  sudo apt-get install npm
+  197  npm
+  198  man install.txt
+  199  nano install.txt
+  200  jar jalview.jar
+  201  jar -
+  202  nano jalview.sh
+  203  nano tutorial
+  204  npx create-react-app my-app
+  205  ls
+  206  rl -a
+  207  ls -a
+  208  npm install -g create-react-app
+  209  sudo npm install -g create-react-app
+  210  sudo px create-react-app hello-world
+  211  px create-react-app hello-world
+  212  sudo npx create-react-app new_app
+  213  cd new_app/
+  214  npm start
+  215  sudo npm start
+  216  top
+  217  sudo apt install chrome
+  218  ls
+  219  cd new_app/
+  220  ls
+  221  sudo
+  222  sudo code --user-data-dir="~/.vscode-root"
+  223  flashplugin-installer
+  224  kill -9 1769
+  225  top
+  226  htop
+  227  top
+  228  chmod 777 new_app/
+  229  sudo chmod 777 new_app/
+  230  sudo chmod 777 -r  new_app/
+  231  sudo chmod -r 777   new_app/
+  232  sudo chmod 777 new_app/  -r
+  233  cd new_app/
+  234  sudo chmod 777 *
+  235  sudo chmod 777 
+  236  cd src
+  237  ls
+  238  sudo chmod 777 images
+  239  ifconfig
+  240  sudo apt install net-tools
+  241  ifconfig
+  242  sudo npm install -g expo-cli
+  243  npm start
+  244  sudo npm start
+  245  telnet
+  246  top
+  247  sudo npm start
+  248  ls
+  249  cd new_app/
+  250  sudo npm start
+  251  cd Documents/
+  252  nano shell script
+  253  cat shell 
+  254  cat script
+  255  chmod 777 shell 
+  256  cat shell
+  257  ls -l
+  258  cd projects/react/
+  259  sudo npm start
+  260  cd Documents/projects/
+  261  ls
+  262  cd react/
+  263  ls
+  264  sudo chmod -R 777 new_app/
+  265  sudo code --user-data-dir="~/.vscode-root"
+  266  zip -r react.zip react
+  267  sudo zip -r react.zip react
+  268  sudo npm start
+  269  conda info --envs
+  270  jupyter notebook
+  271  ifconfig
+  272  conda activate tf
+  273  jupyter notebook
+  274  sudo cp mystyle.css ../../jolo/src/
+  275  sudo cp App.js  ../../jolo/src/
+  276  sudo cp -r images/  ../../jolo/src/
+  277  sudo cp -r components/  ../../jolo/src/
+  278  sudo npm install -g create-react-app
+  279  sudo npx create-react-app jolo
+  280  cd jolo
+  281  sudo npm start
+  282  chmod -R 777 react/
+  283  sudo chmod -R 777 react/
+  284  jupyter notebook
+  285  conda install -c conda-forge bayesian-optimization
+  286  ls-a
+  287  ls -a
+  288  ls -r
+  289  ls -r -a
+  290  sudo add-apt-repository multiverse && sudo apt-get update
+  291  sudo apt install virtualbox
+  292  sudo virtualbox 
+  293  conda install -c anaconda joblib
+  294  ls -a
+  295  ls -r -a
+  296  cd ws_2019
+  297  ls -a
+  298  export PATH=/home/panda/Documents/uni/ws_2019/IOT/confluent-5.3.1/bin:${PATH};
+  299  nano .bashrc 
+  300  nano .profile 
+  301  pwd
+  302  franz
+  303  np -v
+  304  npm -v
+  305  node -v
+  306  cd maske01/
+  307  heroku login
+  308  git add .
+  309  git commit -m "dependencies changed node npm"
+  310  git add .
+  311  git commit -m "dependencies changed node npm"
+  312  git commit -am "dependencies changed node npm"
+  313  git push heroku master
+  314  git add *
+  315  git commit -am "dependencies changed node npm"
+  316  git push heroku master
+  317  git remote add heroku https://git.heroku.com/mask01.git
+  318  git push heroku master
+  319  git add package.json
+  320  git commit -am "package"
+  321  git rm package.json
+  322  git commit -am "ere"
+  323  git push heroku master
+  324  git add package.json
+  325  nano package.json
+  326  git add package.json
+  327  git commit -am "rm and added package json"
+  328  git push heroku master
+  329  sudo npx create-react-app app
+  330  cd app/
+  331  git init
+  332  sudo git init
+  333  heroku git:remote -a buuhja
+  334  sudo heroku git:remote -a buuhja
+  335  git add .
+  336  sudo git add .
+  337  sudo git commit -am "make it better"
+  338  git config --global user.email "mendeltem@googlemail.com"
+  339  git commit -am "make it better"
+  340  sudo git commit -am "make it better"
+  341  git config --global user.name "mendel"
+  342  sudo git config --global user.name
+  343  sudo git commit -am "make it better"
+  344  sudo git config --global user.name
+  345  sudo git config --global user.name "mendel"
+  346  sudo sudo git config --global user.name
+  347  sudo git config --global user.name
+  348  git commit -am "make it better"
+  349  sudo git commit -am "make it better"
+  350  git config --global user.email "mendeltem@gmail.com"
+  351  git config --global user.name "mendel"
+  352  sudo git commit -am "first"
+  353  git config --global user.email
+  354  git add .
+  355  sudo git add .
+  356  sudo git commit -am "first"
+  357  sudo git init
+  358  git config --global user.email "mendeltem@gmail.com"
+  359  git config --global user.name "mendel"
+  360  heroku git:remote -a buuhja
+  361  sudo heroku git:remote -a buuhja
+  362  git add .
+  363  sudo git add .
+  364  sudo git commit -am "make it better"
+  365  --global
+  366  git --global
+  367  git --global use
+  368  git --global user
+  369  git config --global use
+  370  git config --global user
+  371  git config --global user.name
+  372  git config --global user.email
+  373  git config --global user.name
+  374  sudo git config --global user.email "mendeltem@googlemail.com"
+  375  sudo git commit -am "make it better"
+  376  git push heroku master
+  377  sudo git push heroku master
+  378  sudo npm start
+  379  killall node
+  380  sudo killall node
+  381  cd ..
+  382  chmod 777 -R app
+  383  sudo chmod 777 -R app
+  384  cd app
+  385  npm start
+  386  sudo npm start
+  387  killallnode
+  388  killall node
+  389  ps aux | grep node
+  390  kill -9 3319
+  391  kill -9 20270
+  392  git add package.json
+  393  git add .
+  394  git commit -am "rm and added package json"
+  395  git push heroku master
+  396  node -v
+  397  ls -a
+  398  nano .ssh/id_rsa.pub 
+  399  cat .ssh/id_rsa.pub 
+  400  pwd
+  401  heroku login
+  402  git init
+  403  heroku git:remote -a buuja
+  404  git add .
+  405  gti commit -am "jolo"
+  406  git commit -am "jolo"
+  407  git push heroku master
+  408  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  409  sudo dpkg -i google-chrome-stable_current_amd64.deb
+  410  echo "# mask01" >> README.md
+  411  git init
+  412  git add README.md
+  413  git commit -m "first commit"
+  414  git remote add origin git@github.com:mendeltem/mask01.git
+  415  git push -u origin master
+  416  git add .
+  417  git commit -am "ad app"
+  418  git push origin master
+  419  chmod app
+  420  sudo chmod 777 -R app
+  421  sudo npx create-react-app app
+  422  chmod 777 jolo
+  423  sudo chmod 777 jolo
+  424  sudo chmod -r 777 jolo
+  425  sudo chmod  777 -r jolo
+  426  sudo chmod 777 -r jolo
+  427  sudo chmod 777 jolo
+  428  sudo chmod 777 jolo -r
+  429  sudo chmod 777 jolo/* 
+  430  sudo chmod 777 jolo
+  431  sudo chmod 777 
+  432  sudo chmod --help
+  433  sudo chmod 777 -R jolo
+  434  mv jolo maske01
+  435  ls
+  436  git status
+  437  cd jolo
+  438  git status
+  439  git init
+  440  cd maske01/
+  441  git init
+  442  heroku git:remote -a mask01
+  443  git add .
+  444  git commit -am "make it better"
+  445  git push heroku master
+  446  sudo snap install --classic heroku
+  447  heroku 
+  448  heroku login
+  449  ls
+  450  cd Documents/projects/
+  451  ls
+  452  cd react/
+  453  ls
+  454  cd jolo
+  455  git init
+  456  heroku git:remote -a mask01
+  457  sudo heroku git:remote -a mask01
+  458  sudo rm .git*
+  459  sudo rm -r .git*
+  460  heroku login
+  461  git init
+  462  sudo git init
+  463  heroku git:remote -a mask01
+  464  sudo heroku git:remote -a mask01
+  465  git add .
+  466  sudo git add .
+  467  git commit -am "make it better"
+  468  sudo git commit -am "make it better"
+  469  git config --global user.email "you@example.com"
+  470  git config --global user.name "Your Name"
+  471  sudo git commit -am "make it better"
+  472  git config --global user.email "mendeltem@googlemail.com"
+  473  git config --global user.name "mendel"
+  474  git config --global user.email
+  475  git push heroku master
+  476  sudo git push heroku master
+  477  git push heroku HEAD:master
+  478  git push heroku master
+  479  touch readme
+  480  git push heroku master
+  481  cd
+  482  cd Documents/projects/react/maske01/
+  483  git push heroku master
+  484  sudo npm start
+  485  npm stop
+  486  ps aux | grep node
+  487  kill -9 19020
+  488  kill -9 5838
+  489  git init
+  490  git add *
+  491  sudo git add *
+  492  git remote add origin git@github.com:mendeltem/mask01.git
+  493  git push -u origin master
+  494  sudo git push -u origin master
+  495  cd
+  496  ssh-keygen -t rsa
+  497  heroku keys:add
+  498  echo "# mask01" >> README.md
+  499  echo "# mask01" >> README.mdsudo
+  500  sudo echo "# mask01" >> README.md
+  501  git init
+  502  sudo apt install git
+  503  git init
+  504  sudo git init
+  505  git add *
+  506  sudo git add *
+  507  sudo git -f add *
+  508  sudo git add * -f
+  509  git remote add origin git@github.com:mendeltem/mask01.git
+  510  sudo git remote add origin git@github.com:mendeltem/mask01.git
+  511  sudo git push -u origin master
+  512  jupyter notebook
+  513  nano sequence_1
+  514  nano human_p_seq
+  515  conda activate bioinf 
+  516  ls
+  517  cd Documents/uni/ws_2019/
+  518  ls
+  519  cd Bio/Bioinf/
+  520  ls
+  521  cd uebung/ex9/
+  522  ls
+  523  which 
+  524  which blast
+  525  blast
+  526  BLAST
+  527  ls
+  528  cd ..
+  529  cd ex8
+  530  ls
+  531  cat 08_lab_mtDNA.pdf 
+  532  cd ex8clear
+  533  clear
+  534  cd ..
+  535  cd ex9
+  536  ls
+  537  open
+  538  nano eigenschaften
+  539  cat eigenschaften 
+  540  jupyter notebook
+  541  unrar x LPK-5.rar 
+  542  unrar x LPK-1.rar 
+  543  unrar x GoodBJ.rar 
+  544  unrar x blacklist.rar 
+  545  unrar x thai\ curry.rar 
+  546  unrar x HowtoChurnButter.rar 
+  547  7z x Moai.7z 
+  548  7z x filehost_YouthSyrumRecipe.7z 
+  549  7z x Moai.7z 
+  550  cd exercism/python/word-count/
+  551  exercism submit word_count
+  552  exercism submit word_count.py
+  553  cd ..
+  554  cd hamming/
+  555  exercism submit hamming
+  556  exercism submit hamming.py
+  557  exercism download --exercise=reverse-string --track=python
+  558  exercism download --exercise=rational-numbers --track=python
+  559  sudo apt-get update
+  560  sudo apt-get install p7zip-full
+  561  7z
+  562  sudo apt-get install unrar
+  563  unrar x FileName.rar
+  564  conda install exercism
+  565  exercism download --exercise=hamming --track=python
+  566  exercism configure --token=51a38c26-2d12-46c4-a8d6-a06ddf1a83e6
+  567  exercism download --exercise=hamming --track=python
+  568  cd exercism/python/hamming/
+  569  spyder
+  570  exercism download --exercise=hamming --track=python
+  571  cd /home/panda/exercism/python/hamming
+  572  ls
+  573  exercism submit hamming
+  574  cd ..
+  575  exercism submit hamming
+  576  cd hamming/
+  577  exercism submit hamming.py
+  578  exercism download --exercise=word-count --track=python
+  579  git clone git@github.com:mendeltem/MQTT-to-Kafka.git
+  580  cd MQTT-to-Kafka/
+  581  conda create kafka
+  582  conda create -name kafka
+  583  npm install requirements.txt 
+  584  python consume_to_cloudwatch.py
+  585  conda activate boto3
+  586  conda activate kafka
+  587  conda info --envs
+  588  conda h
+  589  conda --elp
+  590  conda --help
+  591  conda create --help
+  592  conda create -n --name kafka
+  593  conda create  --name kafka
+  594  conda activate kafka
+  595  conda install -c conda-forge boto3
+  596  conda install -c sci-bots paho-mqtt 
+  597  conda install -c anaconda psycopg2 
+  598  conda install kafka
+  599  conda install -c conda-forge kafka-python
+  600  python consume_to_cloudwatch.py
+  601  spyder
+  602  conda install spyder
+  603  spyder
+  604  7z x QMZQAG.7z 
+  605  sudo apt install virtualbox
+  606  7z --help
+  607  7z x famfam.7z 
+  608  7z x G-180515-R-E.7z 
+  609  7z x tcs265.7z 
+  610  7z x GS45.7z 
+  611  jupyter notebook
+  612  7z x ten.7z.001
+  613  7z x M33SRT.7z.001
+  614  7z x M33.7z.001
+  615  7z x M33SRT.7z 
+  616  top
+  617  7z x GP5.7z 
+  618  7z x remastered.rar 
+  619  7z x starter2.0.7z 
+  620  7z x filehost_YouthSyrumRecipe.7z 
+  621  7z x starter2.0.7z 
+  622  7z x remastered.rar 
+  623  tropical//////////
+  624  7z x remastered.rar 
+  625  exercism upload word_count.py
+  626  exercism --help
+  627  exercism submit word_count.py
+  628  exercism submit hamming.py
+  629  cd ..
+  630  cd hamming/
+  631  exercism submit hamming.py
+  632  exercism download --exercise=rational-numbers --track=python
+  633  exercism download --exercise=rna-transcription --track=python
+  634  exercism download --exercise=atbash-cipher --track=python
+  635  exercism download --exercise=saddle-points --track=python
+  636  exercism submit rna_transcription.py 
+  637  exercism download --exercise=say --track=python
+  638  cd ..
+  639  cd word-count/
+  640  exercism submit word_count.py
+  641  exercism download --exercise=flatten-array --track=python
+  642  spyder
+  643  exercism download --exercise=two-fer --track=python
+  644  conda activate kafka
+  645  spyder
+  646  conda install spyder
+  647  htop
+  648  top
+  649  python message_intercept.py
+  650  clear
+  651  top
+  652  bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic sensor/brightness/#
+  653  ls
+  654  cd Documents/uni/ws_2019/IOT/sensordata/
+  655  ls
+  656  python test.py 
+  657  python sim-data.py 
+  658  mosquitto_sub -h localhost -t sensor/brightness/ 
+  659  mosquitto_sub -h localhost -t 'sensor/brightness/' 
+  660  mosquitto_sub -h localhost -t 'sebrightness/' 
+  661  mosquitto_sub -h localhost -t 'sebrightness' 
+  662  mosquitto_sub -h localhost -t brightness 
+  663  mosquitto_sub -h localhost -t sensor/brightness 
+  664  bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic 'sensor/brightness/#'
+  665  bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic "sensor/brightness/#"
+  666  bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic sensor\/brightness\/#
+  667  bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic sensor
+  668  clear
+  669  mosquitto_pub -h localhost -t test -m "hello world"
+  670  mosquitto_pub -h localhost -t test/wetter -m "hello world"
+  671  mosquitto_pub -h localhost -t sensor/brightness -m "hello world"
+  672  mosquitto_pub -h localhost -t 'sensor/brightness' -m "hello world"
+  673  mosquitto_pub -h localhost -t 'brightness' -m "hello world"
+  674  mosquitto_pub -h localhost -t brightness -m "hello world"
+  675  mosquitto_pub -h localhost -t sensor/brightness -m "hello world"
+  676  mosquitto_pub -h localhost -p 1883 -t sensor/brightness -m "hello world"
+  677  curl
+  678  pip install curl
+  679  curl -fsSL https://get.docker.com -o get-docker.sh
+  680  ls
+  681  sudo sh get-docker.sh 
+  682  docker
+  683  sudo snap install docker 
+  684  snap install mosquitto
+  685  mosquitto
+  686  sudo apt install mosquitto
+  687  sudo apt-add-repository ppa:mosquitto-dev/mosquitto-ppa
+  688  sudo apt-get update
+  689  sudo service  mosquitto stop
+  690  sudo service mosquitto start
+  691  sudo apt-get install mosquitto mosquitto-clients
+  692  mosquitto_sub -h localhost -t test
+  693  mosquitto_sub -h localhost -t test/wetter
+  694  mosquitto_sub -h localhost -t "sensor/brightness/"
+  695  mosquitto_sub -h localhost -t "sensor/brightness/" 
+  696  mosquitto_sub -h localhost -t "weather" 
+  697  bin/kafka-server-start.sh config/server.properties
+  698  clear
+  699  bin/kafka-server-start.sh config/server.properties
+  700  top
+  701  python simple_kafka_consumer.py 
+  702  python sensordata/sim-data-2.py 
+  703  conda install -c conda-forge kafka-python
+  704  bin/zookeeper-server-start.sh config/zookeeper.properties
+  705  conda install kafka
+  706  conda install -c conda-forge kafka-python
+  707  conda install -c sci-bots paho-mqtt 
+  708  conda install -c -y anaconda psycopg2 
+  709  conda install -c  anaconda psycopg2 
+  710  onda install -c conda-forge boto3 
+  711  conda install -c conda-forge boto3 
+  712  python message_intercept.py
+  713  spyder
+  714  mosquitto_sub -h localhost -t sensor/brightness/# -p 1883
+  715  zookeeper-server-start.sh config/zookeeper.properties
+  716  ls
+  717  cd ..
+  718  bin/zookeeper-server-start.sh
+  719  bin/zookeeper-server-start.sh config/zookeeper.properties
+  720  clear
+  721  bin/kafka-server-start.sh config/server.properties
+  722  sort
+  723  sudo apt install ffmpegthumbnailer
+  724  kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic numtest
+  725  python simple_kafka_consumer.py 
+  726  sudo npm start
+  727  bin/zookeeper-server-start.sh config/zookeeper.properties
+  728  nohub bin/zookeeper-server-start.sh config/zookeeper.properties
+  729  nohup bin/zookeeper-server-start.sh config/zookeeper.properties
+  730  nohup bin/zookeeper-server-start.sh config/zookeeper.properties &
+  731  top
+  732  nohup bin/zookeeper-server-start.sh config/zookeeper.properties &
+  733  bin/zookeeper-server-start.sh config/zookeeper.properties 
+  734  nohup bin/zookeeper-server-start.sh config/zookeeper.properties &
+  735  bin/zookeeper-server-start.sh config/zookeeper.properties 
+  736  nohup bin/kafka-server-start.sh config/server.properties &
+  737  conda install -c anaconda pymongo
+  738  jupyter notebook
+  739  sudo service mosquitto start 
+  740  spyder
+  741  npm start
+  742  sudo npm start
+  743  ps aux | grep node
+  744  ps aux | grep react
+  745  echo "# jolo" >> README.md
+  746  git init
+  747  git add README.md
+  748  git commit -m "first commit"
+  749  git remote add origin git@github.com:mendeltem/jolo.git
+  750  git push -u origin master
+  751  top
+  752  killall node
+  753  sudo killall node
+  754  git clone https://github.com/bradtraversy/mern_shopping_list.git
+  755  sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
+  756  echo "deb http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.4.list
+  757  sudo apt-get update
+  758  sudo apt-get install -y mongodb-org
+  759  cd Documents/projects/react/jolo/
+  760  ls
+  761  sudo npm start
+  762  git clone https://github.com/bradtraversy/devconnector.git
+  763  sudo npm start
+  764  npm install
+  765  sudo npm client-install
+  766  cd client/
+  767  sudo npm install
+  768  cd ..
+  769  npm run dev
+  770  npm install
+  771  cd client/
+  772  npm install
+  773  cd ..
+  774  npm run dev
+  775  sudo npm run dev
+  776  sudo killall node
+  777  sudo npm start
+  778  touch test
+  779  sudo apt install ffmpegthumbnailer
+  780  sudo apt install gstreamer1.0-libav
+  781  rm -r ~/.cache/thumbnails/fail
+  782  top
+  783  jupyter notebook
+  784  shutdown --help
+  785  shutdown -t 60
+  786  shutdown -c
+  787  shutdown -t 60*15
+  788  shutdown -c
+  789  shutdown -t 600
+  790  shutdown -c
+  791  shutdown -t 6000
+  792  shutdown -c
+  793  shutdown +30
+  794  shutdown -c
+  795  shutdown 30
+  796  shutdown -c
+  797  shutdown 30
+  798  shutdown +30
+  799  shutdown -c
+  800  spyder
+  801  cd Documents/uni/ws_2019/IDA2/Kmeans/
+  802  ls
+  803  jupyter notebook
+  804  shutdown 20
+  805  git add *
+  806  git commit -m "ex11 added"
+  807  git push origin master
+  808  shutdown 30
+  809  sudo service mosquitto start 
+  810  nohup bin/zookeeper-server-start.sh config/zookeeper.properties &
+  811  pwd
+  812  bin/zookeeper-server-start.sh config/zookeeper.properties
+  813  python simple_kafka_consumer.py 
+  814  spyder
+  815  spyder &
+  816  spyder&
+  817  sudo service mosquitto start 
+  818  nohup bin/zookeeper-server-start.sh config/zookeeper.properties &
+  819  nohup bin/kafka-server-start.sh config/server.properties &
+  820  cd kafka-2.3.1-src/
+  821  nohup bin/kafka-server-start.sh config/server.properties &
+  822  top
+  823  bin/kafka-server-start.sh config/server.properties 
+  824  python sim.py 
+  825  python simple_kafka_consumer.py 
+  826  python sim-data-3.py 
+  827  nohup spyder&
+  828  sudo service mosquitto start 
+  829  nohub spyder&
+  830  nohup spyder&
+  831  python sim.py 
+  832  kafka-console-consumer --bootstrap-server 127.0.0.1:9092 --topic sensor_brightness_SIMULATOR1-8A12-4F4F-8F69-7B8F4C2A78DD --property print.key=true --from-beginning
+  833  bin/kafka-console-consumer.sh --bootstrap-server 127.0.0.1:9092 --topic sensor_brightness_SIMULATOR1-8A12-4F4F-8F69-7B8F4C2A78DD --property print.key=true --from-beginning
+  834  python kafka_consumer.py 
+  835  python mqtt_kafka_bridge.py 
+  836  python mqtt_kafka_bridge.py 
+  837  python simple_kafka_consumer.py 
+  838  python mqtt_kafka_bridge.py 
+  839  kafka-console-consumer --bootstrap-server 127.0.0.1:9092 --topic sensor_brightness_SIMULATOR1-8A12-4F4F-8F69-7B8F4C2A78DD --property print.key=true --from-beginning
+  840  bin/kafka-console-consumer.sh --bootstrap-server 127.0.0.1:9092 --topic sensor_brightness_SIMULATOR1-8A12-4F4F-8F69-7B8F4C2A78DD --property print.key=true --from-beginning
+  841  bin/kafka-console-consumer.sh --bootstrap-server 127.0.0.1:9092 --topic sensor_brightness_SIMULATOR1-8A12-4F4F-8F69-7B8F4C2A78DD 
+  842  bin/kafka-console-consumer.sh --bootstrap-server 127.0.0.1:9092 --topic sensor_brightness_SIMULATOR1-8A12-4F4F-8F69-7B8F4C2A78DD --property print.key=true --from-beginning
+  843  bin/kafka-console-consumer --bootstrap-server 127.0.0.1:9092 --topic sensor_brightness_SIMULATOR1-8A12-4F4F-8F69-7B8F4C2A78DD --property print.key=true --from-beginning
+  844  kafka-console-consumer --bootstrap-server 127.0.0.1:9092 --topic sensor_brightness_SIMULATOR1-8A12-4F4F-8F69-7B8F4C2A78DD --property print.key=true --from-beginning
+  845  python sim.py
+  846  bin/kafka-server-start.sh config/server.properties
+  847  bin/zookeeper-server-start.sh config/zookeeper.properties 
+  848  sudo service mosquitto start 
+  849  nohup spyder&
+  850  shutdown 30
+  851  jupyter notebook
+  852  unzip -q matlab_R2019b_glnxa64.zip -d matlab 
+  853  cd matlab/
+  854  sudo ./install
+  855  conda activate bioinf
+  856  conda install blast
+  857  conda install -c bioconda blast
+  858  blast -db medicagoDna.fasta
+  859  blast
+  860  blast -db medicagoDna.fasta
+  861  conda install -c bioconda/label/cf201901 bast
+  862  conda install -c bioconda/label/cf201901 blast
+  863  sudo install sh
+  864  install
+  865  .\ install
+  866  . install
+  867  sudo mkdir -p /usr/local/MATLAB/R2018a/
+  868  ./ install
+  869  matlab
+  870  ./ matlab
+  871  .\ matlab
+  872  ./matlab
+  873  ./activate_matlab.sh 
+  874  ./matlab
+  875  matlab
+  876  spyder
+  877  python sim_2.py 
+  878  python sim.py
+  879  nohup python sim_2.py&
+  880  nohup python sim_3.py&
+  881  nohup python sim_3.py &
+  882  sudo wireshark 
+  883  python sim_3.py 
+  884  python sim_2.py 
+  885  python sim.py 
+  886  sudo service mosquitto start
+  887  cd kafka-2.3.1-src/
+  888  nohup bin/zookeeper-server-start.sh config/zookeeper.properties &
+  889  nohup bin/kafka-server-start.sh config/server.properties &
+  890  top
+  891  nohup spyder&
+  892  git clone https://github.com/beaucarnes/mern-exercise-tracker-mongodb.git
+  893  cd mern-exercise-tracker-mongodb/
+  894  npm install
+  895  sudo chrome
+  896  shutdown 4
+  897  shutdown -4
+  898  shutdown -c
+  899  shutdown 43
+  900  ffmpegthumbnailer E --help
+  901  ffmpegthumbnailer E -s1000
+  902  ffmpegthumbnailer E -s
+  903  ffmpegthumbnailer E -s 1000
+  904  ffmpegthumbnailer E -s 1
+  905  ffmpegthumbnailer E -s 0
+  906  ffmpegthumbnailer E -s0
+  907  ffmpegthumbnailer -s0
+  908  ffmpegthumbnailer -s 0
+  909  ffmpegthumbnailer -s %0
+  910  ffmpegthumbnailer -s 1
+  911  thunar-volman-settings 
+  912  thunar-settings 
+  913  thunar-settings -h
+  914  sudo apt-get install ffmpeg ffmpegthumbnailer gstreamer0.10-ffmpeg
+  915  sudo vi /usr/share/thumbnailers/totem.thumbnailer
+  916  sudo apt-get install gnome-sushi 
+  917  sudo apt-get update
+  918  apt-get install gloobus-preview
+  919  sudo apt-get install gloobus-preview
+  920  sudo apt-get install thunar 
+  921  thuner -h
+  922  thuner -help
+  923  thuner --help
+  924  thunar --help
+  925  thunar-settings 
+  926  thunar-settings -q
+  927  thunar 
+  928  sudo nano /usr/share/thumbnailers/totem.thumbnailer 
+  929  thunar-settings -q
+  930  sudo nano /usr/share/thumbnailers/totem.thumbnailer 
+  931  source /usr/share/thumbnailers/totem.thumbnailer 
+  932  sudo nano /usr/share/thumbnailers/totem.thumbnailer 
+  933  source /usr/share/thumbnailers/totem.thumbnailer 
+  934  dconf-editor
+  935  gconf-editor
+  936  sudo apt install gconf-editor
+  937  gconf-editor
+  938  gsettings list-recursively | grep thumbnail-size
+  939  grep thumbnail-size
+  940  gsettings set org.mate.caja.icon-view thumbnail-size 150
+  941  gsettings
+  942  sudo apt update
+  943  sudo apt install nemo
+  944  sudo apt update
+  945  sudo apt install nemo
+  946  sudo apt update
+  947  sudo apt install nemo
+  948  sudo apt install gnome-tweak-tool
+  949  sudo Tweaks
+  950  sudo gnome-tweak-tool
+  951  sudo apt update
+  952  sudo sudo apt update
+  953  sudo apt install nemo
+  954  xdg-mime default nemo.desktop inode/directory application/x-gnome-saved-search
+  955  gsettings set org.gnome.desktop.background show-desktop-icons false
+  956  gsettings set org.nemo.desktop show-desktop-icons true
+  957  sudo apt install nautilus-admin
+  958  sudo apt-get install dconf-editor 
+  959  dconf-editor 
+  960  thunar
+  961  dconf-editor 
+  962  sudo dconf-editor 
+  963  gsettings set org.gnome.nautilus.icon-view default-zoom-level 'small'
+  964  gsettings list-recursively | grep thumbnail-size
+  965  gsettings set org.mate.caja.icon-view thumbnail-size 150
+  966  gsettings set org.gnome.desktop.background show-desktop-icons false
+  967  nemo-desktop
+  968  shutdwon 40
+  969  shutdown 40
+  970  ls -h
+  971* ls -
+  972  ls -R
+  973* ls -
+  974  ls -R | grep "06"
+  975  ls -R | grep "06" -c
+  976  ls -R | grep "06" -wc
+  977  grep --help
+  978  ls -R | grep "06" -wc -l
+  979  ls -R | grep "06" -wc 
+  980  ls
+  981  cat README.md 
+  982  cat README.md | grep "le"
+  983  cat README.md | grep "le" -c
+  984  cat README.md | grep "le" -wc
+  985  cat README.md | grep "Zuletzt" -wc
+  986  cat README.md | grep "Zuletzt" -c
+  987  cat README.md | grep "überspringen" -wc
+  988  cat README.md | grep "überspringen" -c
+  989  cat README.md | grep "überspringen"
+  990  cat README.md | grep "überspringen" -n
+  991  cat README.md | grep "überspringen" -wc
+  992  cat README.md | grep "überspringen" -c
+  993  cat README.md | grep "überspringen" 
+  994  cat README.md | grep "überspringen" -c
+  995  cat README.md | grep "überspringen" -wc
+  996  cat README.md | grep "überspringen" 
+  997  cat README.md 
+  998  ls
+  999  cd Vorlesung/
+ 1000  ls
+ 1001  cat 01_lec.intro.pdf 
+ 1002  less 01_lec.intro.pdf 
+ 1003* less 01_lec.intro
+ 1004  less 01_lec.intro.pdf | grep "0"
+ 1005  less 01_lec.intro.pdf | grep "0" -unique
+ 1006  less 01_lec.intro.pdf | grep "0" -uniq
+ 1007  less 01_lec.intro.pdf | grep "0" 
+ 1008  less 01_lec.intro.pdf | grep "0" -uniq
+ 1009  less 01_lec.intro.pdf | grep "0" -uniq -c
+ 1010  less 01_lec.intro.pdf | grep "0" -c
+ 1011  less 01_lec.intro.pdf | grep "0" -wc
+ 1012  less 01_lec.intro.pdf | grep "30" -wc
+ 1013  less 01_lec.intro.pdf | grep "20" -wc
+ 1014  less 01_lec.intro.pdf | grep "2020" -wc
+ 1015  less 01_lec.intro.pdf | grep "2020" -c
+ 1016  less 01_lec.intro.pdf | grep "2020" -wc
+ 1017  less 01_lec.intro.pdf | grep "30" -c
+ 1018  less 01_lec.intro.pdf | grep "40" 
+ 1019  less 01_lec.intro.pdf | grep "~40" 
+ 1020  less 01_lec.intro.pdf | grep "~40" -wc
+ 1021* 
+ 1022  less 01_lec.intro.pdf | grep "~40" 
+ 1023  less 01_lec.intro.pdf | grep "~40" -> mendels.out
+ 1024  cat mendels.out 
+ 1025  history
+ 1026  history -> history
+ 1027  history -> history.out
+ 1028  cat history -> history.out
+ 1029  history | -> history.out
+ 1030  history | cat-> history.out
+ 1031  history | cat -> history.out

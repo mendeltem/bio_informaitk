@@ -14,13 +14,13 @@ Lokal installierte Software, die in diesem Semester verwendet wird:
 Diese Software ist bereits auf den Rechnern in den Computer-Pools (H25) installiert.
 
 Zuletzt geändert: Freitag, 22. November 2019, 08:09
-Einstellungen überspringen
+Einstellungen überspringen überspringendfasdf
 Block Einstellungen verbergen
 Einstellungen
 
     Kurs-Administration
 
-Navigation überspringen
+Navigation 
 Block Navigation verbergen
 Navigation
 
